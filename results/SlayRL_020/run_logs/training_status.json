@@ -1,0 +1,29 @@
+{
+    "SlayTheSquire_RL": {
+        "checkpoints": [
+            {
+                "steps": 69138,
+                "file_path": "results\\SlayRL_020\\SlayTheSquire_RL\\SlayTheSquire_RL-69138.onnx",
+                "reward": 6.849999960731058,
+                "creation_time": 1745348024.9658647,
+                "auxillary_file_paths": [
+                    "results\\SlayRL_020\\SlayTheSquire_RL\\SlayTheSquire_RL-69138.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 69138,
+            "file_path": "results\\SlayRL_020\\SlayTheSquire_RL.onnx",
+            "reward": 6.849999960731058,
+            "creation_time": 1745348024.9658647,
+            "auxillary_file_paths": [
+                "results\\SlayRL_020\\SlayTheSquire_RL\\SlayTheSquire_RL-69138.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.13.1+cpu"
+    }
+}

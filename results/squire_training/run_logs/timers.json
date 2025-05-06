@@ -1,0 +1,68 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1738770512",
+        "python_version": "3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\ryanj\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\mlagents-learn config/slay_the_squire_config.yaml --run-id=squire_training --force",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.13.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1738770615"
+    },
+    "total": 102.42186389999999,
+    "count": 1,
+    "self": 0.004894599999985871,
+    "children": {
+        "run_training.setup": {
+            "total": 0.07486579999999998,
+            "count": 1,
+            "self": 0.07486579999999998
+        },
+        "TrainerController.start_learning": {
+            "total": 102.34210350000001,
+            "count": 1,
+            "self": 0.00012350000000083128,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 10.392790999999999,
+                    "count": 1,
+                    "self": 10.392790999999999
+                },
+                "TrainerController.advance": {
+                    "total": 91.8824552,
+                    "count": 1,
+                    "self": 1.4899999996487168e-05,
+                    "children": {
+                        "env_step": {
+                            "total": 91.8824403,
+                            "count": 1,
+                            "self": 91.8824332,
+                            "children": {
+                                "SubprocessEnvManager._take_step": {
+                                    "total": 7.09999999948252e-06,
+                                    "count": 1,
+                                    "self": 7.09999999948252e-06
+                                }
+                            }
+                        }
+                    }
+                },
+                "TrainerController._save_models": {
+                    "total": 0.06673380000000861,
+                    "count": 1,
+                    "self": 0.010161600000003546,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.05657220000000507,
+                            "count": 1,
+                            "self": 0.05657220000000507
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1738773553",
+        "python_version": "3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\ryanj\\Slay the Squire\\venv\\Scripts\\mlagents-learn --force",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1738773563"
+    },
+    "total": 10.1563314,
+    "count": 1,
+    "self": 0.0034951999999996985,
+    "children": {
+        "run_training.setup": {
+            "total": 0.018026999999999904,
+            "count": 1,
+            "self": 0.018026999999999904
+        },
+        "TrainerController.start_learning": {
+            "total": 10.1348092,
+            "count": 1,
+            "self": 0.00026860000000006323,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 10.1345293,
+                    "count": 1,
+                    "self": 10.1345293
+                },
+                "trainer_threads": {
+                    "total": 6.99999999298484e-07,
+                    "count": 1,
+                    "self": 6.99999999298484e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 1.0599999999527654e-05,
+                    "count": 1,
+                    "self": 1.0599999999527654e-05
+                }
+            }
+        }
+    }
+}

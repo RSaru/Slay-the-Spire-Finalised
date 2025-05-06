@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1744989683",
+        "python_version": "3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\ryanj\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\mlagents\\trainers\\learn.py Training\\trainer_config.yaml --run-id=SlayRL_003",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.13.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1744989744"
+    },
+    "total": 61.4083048,
+    "count": 1,
+    "self": 0.004242700000006039,
+    "children": {
+        "run_training.setup": {
+            "total": 0.08192540000000004,
+            "count": 1,
+            "self": 0.08192540000000004
+        },
+        "TrainerController.start_learning": {
+            "total": 61.322136699999994,
+            "count": 1,
+            "self": 0.000172099999993236,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 61.3219521,
+                    "count": 1,
+                    "self": 61.3219521
+                },
+                "TrainerController._save_models": {
+                    "total": 1.250000000396767e-05,
+                    "count": 1,
+                    "self": 1.250000000396767e-05
+                }
+            }
+        }
+    }
+}
